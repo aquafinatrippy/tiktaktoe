@@ -5,8 +5,9 @@
     Player {{winner}} won the game
 </h1>
 
-<main>
+<main class="board">
     <app-square
+
     *ngFor="let val of squares; let i = index"
     [value]="val"
     (click)="makeMove(i)"
