@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./board.component.sass']
 })
 export class BoardComponent implements OnInit {
-  squares: any[];
+  squares: string[];
   xIsNext: boolean;
   winner: string;
 
